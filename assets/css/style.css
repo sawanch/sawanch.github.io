@@ -1099,3 +1099,75 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+
+/*--------------------------------------------------------------
+# Cards
+--------------------------------------------------------------*/
+
+/* Add some basic styling to the cards */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.achievement-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+div.achievement-card h3.cards-header-1 {
+
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(to left, #173b6c,  #173b6c);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+}
+
+div.achievement-card h3.cards-header-2 {
+
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  background-image: linear-gradient(to left, #173b6c,  #173b6c);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+}
+
+
+/* Add a hover effect */
+.achievement-card:hover {
+  transform: scale(1.05);
+}
+
+/* Style for the achievement image */
+.achievement-image {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+
+/* Apply italics to a paragraph with the class "italic-text" */
+.italic-text {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 15px;
+  font-style: italic;
+  word-wrap: break-word;
+}
+
+
