@@ -25,3 +25,5 @@ replay_pid*
 
 #ignore DS_Store file
 .DS_Store
+**/.DS_Store
+*.DS_Store
