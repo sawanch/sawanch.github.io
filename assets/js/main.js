@@ -137,8 +137,8 @@
     new Typed(".typed", {
       strings: typed_strings,
       loop: true,
-      typeSpeed: 80,
-      backSpeed: 20,
+      typeSpeed: 50,
+      backSpeed: 10,
       backDelay: 1000,
     });
   }
