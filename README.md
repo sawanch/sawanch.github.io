@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-[Visit my portfolio website here!](https://sawanch.github.io/)
+<a href="https://sawanch.github.io/" target="_blank">Visit my portfolio website here!</a>
 
 ## Preview
 ![Website Preview](assets/img/preview.png)
